@@ -1,0 +1,20 @@
+.footer {
+ padding: 0 0 4em 0;
+ position: right;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 90%;
+ margin: auto;
+}
+
+.footer p {
+  position: relative;
+ right: 0;
+}
+
+.footer-span a {
+ color: var(--blue);
+  text-decoration: underline;
+  font-size: 1em;
+}

@@ -1,0 +1,31 @@
+#event{
+ background-color: var(--blue);
+ height: 60vh;
+ margin-bottom: -2rem;
+ padding: 6rem;
+ text-align: center;
+}
+
+.event-heading {
+font-size: 4em;
+}
+
+.event-heading:hover {
+font-size: 5em;
+}
+
+
+#event button:hover{
+ color: var(--orange);
+ border:  2px solid var(--orange);
+}
+
+#event button {
+ background-color: transparent;
+ border: 2px solid var(--min-blue);
+ border-radius: 15px;
+ margin: auto;
+ padding: 13px;
+ color: var(--white);
+font-size: 2rem;
+}

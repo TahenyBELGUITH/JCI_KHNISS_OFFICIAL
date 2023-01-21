@@ -1,0 +1,53 @@
+.creed-wrapper {
+ background-color: var(--min-blue);
+  z-index: -6;
+  padding: 4rem 0;
+  height: 190vh;
+}
+
+.creed-wrapper h1 {
+ color: var(--white);
+ text-align: center;
+ font-size: 5em;
+}
+
+.creed-wrapper h1:hover {
+ color: var(--top-blue);
+ font-size: 5.5em;
+}
+
+.creed-wrapper p span {
+ line-height: 3em;
+}
+
+.charte {
+ font-family: 'Cairo', sans-serif;
+ font-size: 20px;
+}
+
+.charte:hover {
+ color: var(--white);
+}
+
+.chartef {
+  font-family: 'Rowdies', cursive;
+   font-size: 20px;
+}
+
+.chartef:hover {
+ color: var(--orange);
+}
+
+.credo-wave {
+   margin-top: -4.3rem;
+}
+
+.credo-wave-btm {
+ margin-top: 1.3rem;
+}
+
+.creed-span{
+ color: var(--top-blue);
+}
+
+

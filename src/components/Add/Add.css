@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+input {
+  caret-color: red;
+}
+
+#add h1 {
+  color: var(--blue);
+  font-size: 3em;
+  margin: 1em 0 0 0;
+}
+
+#add h1:hover {
+  color: var(--purple );
+  font-size: 3.5em;
+}
+
+#add .container {
+  position: relative;
+  width: 70%;
+  height: auto;
+  border-radius: 20px;
+  padding:  2em 7em;
+  margin: 4em auto;
+  box-sizing: border-box;
+  background-color: var(--white);
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+
+
+#add .inputs {
+  text-align: left;
+  margin-top: 30px;
+}
+
+#add label, input , select{
+  margin-bottom: 2em;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+#add label {
+  margin-bottom: 4px;
+}
+
+#add label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+#add input::placeholder {
+  color: gray;
+}
+
+#add input, #add select {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+#add button {
+  margin-bottom: 2em;
+  padding: 0;
+  border: none;
+  outline: none;
+  width: 40%;
+  color: white;
+  margin-top: 20px;
+  background: #1DA1F2;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+
+#add button:hover {
+  box-shadow: none;
+}
+
+.add-wave-btm {
+  margin-bottom: -8.4em;
+}

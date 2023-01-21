@@ -1,0 +1,26 @@
+.intro-wrapper {
+  background-color: var(--blue);
+   height: 100vh;
+  padding: 3rem;
+  text-align: center;
+
+}
+/* 
+.intro-images {
+  border: 3px solid white;
+  padding: 3rem;
+  width: 70%;
+  margin: auto;
+} */
+.heading-wrapper {
+ color: var(--white);
+ font-size: 40px;
+ padding-bottom: 3rem;
+ text-align: center;
+}
+
+.intro-span {
+ color: var(--min-blue);
+}
+/******************/
+
