@@ -7,7 +7,7 @@ const Social = () => {
       <ul className=" d-flex nav-social-list">
         {social.map((socialItem, index) => {
           return (
-            <a href={socialItem.href} target="_blank">
+            <a key={index} href={socialItem.href} target="_blank">
               <li className="footer-nav-items" key={index}>
                 {socialItem.icon}
               </li>

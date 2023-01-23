@@ -8,8 +8,8 @@ const Add = () => {
     <div id="add">
       <img src={addWave} />
       <h1 align="center">💙 Glade to see you among us 💙 </h1>
-      <div class="container">
-        <div class="inputs">
+      <div className="container">
+        <div className="inputs">
           <form>
             <label>EMAIL</label>
             <input type="email" placeholder="example@test.com" />
@@ -23,6 +23,7 @@ const Add = () => {
             <input type="text" />
             <p>Please select your Profession :</p>
             <select name="profession" id="profession">
+              <option value="">--Choose an option--</option>
               <option value="raised">RAISED</option>
               <option value="student">STUDENT</option>
               <option value="employee">EMPLOYEE</option>

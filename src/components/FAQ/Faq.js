@@ -7,12 +7,12 @@ const Faq = () => {
   return (
     <div id="faq">
       <img src={FaqWave} className="faq-image" />
-      <div class="container">
+      <div className="container">
         {cardTable.map((card, index) => {
           return (
-            <div class="card">
-              <div class="box">
-                <div class="content">
+            <div key={index} className="card">
+              <div className="box">
+                <div className="content">
                   <div key={index}>
                     <h2>{card.number}</h2>
                     <h3>{card.question}</h3>

@@ -6,51 +6,36 @@ import { officeYearTable } from "../../Data/Data";
 import Social from "../Social/Social";
 
 const Office = () => {
-  const [item, setItem] = useState({ mondat: "2023" });
-  const [office, setOffice] = useState([]);
-  useEffect(() => {
-    //get office base on year
-    if (item.mondat === "") {
-      setOffice([]);
-    } else {
-      const newOfficeTable = officeTable.filter((office) => {
-        return office.year === item.mondat;
-      });
-      setOffice(newOfficeTable);
-    }
-  }, [item]);
+  const [selected, setSelected] = useState(officeTable[0].year);
 
-  const handleClick = (e) => {
-    console.log("first");
-    setItem({ mondat: e.target.value });
+  const handleChange = (event) => {
+    console.log(event.target.value);
+    // setSelected(event.target.value);
+    officeTable.filter((office) =>
+      setSelected(office.year === selected.mondat)
+    );
   };
 
   return (
     <div id="office">
       <div className="d-flex">
         <h1>Executive Office</h1>
-        <select>
-          {officeYearTable.map((year, index) => {
+        <select value={selected} onChange={handleChange}>
+          {officeYearTable.map((option, index) => {
             return (
-              <option
-                key={index}
-                onSelect={(e) => {
-                  handleClick(e, index);
-                }}
-                value={year.mondat}
-              >
-                {year.mondat}
+              <option key={index} value={option.mondat}>
+                {option.mondat}
               </option>
             );
           })}
         </select>
       </div>
-      <ul class="cards">
+      <ul className="cards">
         {officeTable.map((office, index) => {
           return (
             <li key={index}>
-              <a href="" class="card">
-                <img src={office.src} class="card__image" alt="" />
+              <a href="" className="card">
+                <img src={office.src} className="card__image" alt="" />
                 <div className="card__overlay">
                   <div className="card__header">
                     <svg

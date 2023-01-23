@@ -22,6 +22,52 @@ import pic9 from "../Images/Intro/9.jpg";
 import pic10 from "../Images/Intro/10.jpg";
 import pic11 from "../Images/Intro/11.jpg";
 import pic12 from "../Images/Intro/12.jpg";
+import pic13 from "../Images/Intro/13.jpg";
+import pic14 from "../Images/Intro/14.jpg";
+import pic15 from "../Images/Intro/15.jpg";
+import pic16 from "../Images/Intro/16.jpg";
+import pic17 from "../Images/Intro/17.jpg";
+import pic18 from "../Images/Intro/18.jpg";
+import pic19 from "../Images/Intro/19.jpg";
+import pic20 from "../Images/Intro/20.jpg";
+import pic21 from "../Images/Intro/21.jpg";
+import pic22 from "../Images/Intro/22.jpg";
+import pic23 from "../Images/Intro/23.jpg";
+import pic24 from "../Images/Intro/24.jpg";
+import pic25 from "../Images/Intro/25.jpg";
+import pic26 from "../Images/Intro/26.jpg";
+import pic27 from "../Images/Intro/27.jpg";
+import pic28 from "../Images/Intro/28.jpg";
+import pic29 from "../Images/Intro/29.jpg";
+import pic30 from "../Images/Intro/30.jpg";
+import pic31 from "../Images/Intro/31.jpg";
+import pic32 from "../Images/Intro/32.jpg";
+import pic33 from "../Images/Intro/33.jpg";
+import pic34 from "../Images/Intro/34.jpg";
+import pic35 from "../Images/Intro/35.jpg";
+import pic36 from "../Images/Intro/36.jpg";
+import pic37 from "../Images/Intro/37.jpg";
+import pic38 from "../Images/Intro/38.jpg";
+import pic39 from "../Images/Intro/39.jpg";
+import pic40 from "../Images/Intro/40.jpg";
+import pic41 from "../Images/Intro/41.jpg";
+import pic42 from "../Images/Intro/42.jpg";
+import pic43 from "../Images/Intro/43.jpg";
+import pic44 from "../Images/Intro/44.jpg";
+import pic45 from "../Images/Intro/45.jpg";
+import pic46 from "../Images/Intro/46.jpg";
+import pic47 from "../Images/Intro/47.jpg";
+import pic48 from "../Images/Intro/48.jpg";
+import pic49 from "../Images/Intro/49.jpg";
+import pic50 from "../Images/Intro/50.jpg";
+import pic51 from "../Images/Intro/51.jpg";
+import pic52 from "../Images/Intro/52.jpg";
+import pic53 from "../Images/Intro/53.jpg";
+import pic54 from "../Images/Intro/54.jpg";
+import pic55 from "../Images/Intro/55.jpg";
+import pic56 from "../Images/Intro/56.jpg";
+import pic57 from "../Images/Intro/57.jpg";
+import pic58 from "../Images/Intro/58.jpg";
 
 import Abdelhamid from "../Images/Office/abdelhamid.png";
 import Abdellatif from "../Images/Office/abdellatif.png";
@@ -162,6 +208,76 @@ export const introTable = [
     id: 11,
     src: pic12,
     for: "slide12",
+  },
+  {
+    id: 12,
+    src: pic13,
+    for: "slide13",
+  },
+  {
+    id: 13,
+    src: pic14,
+    for: "slide14",
+  },
+  {
+    id: 14,
+    src: pic15,
+    for: "slide15",
+  },
+  {
+    id: 15,
+    src: pic16,
+    for: "slide16",
+  },
+  {
+    id: 16,
+    src: pic17,
+    for: "slide17",
+  },
+  {
+    id: 17,
+    src: pic18,
+    for: "slide18",
+  },
+  {
+    id: 18,
+    src: pic19,
+    for: "slide19",
+  },
+  {
+    id: 19,
+    src: pic20,
+    for: "slide20",
+  },
+  {
+    id: 20,
+    src: pic21,
+    for: "slide21",
+  },
+  {
+    id: 21,
+    src: pic22,
+    for: "slide22",
+  },
+  {
+    id: 22,
+    src: pic23,
+    for: "slide23",
+  },
+  {
+    id: 23,
+    src: pic24,
+    for: "slide24",
+  },
+  {
+    id: 24,
+    src: pic25,
+    for: "slide25",
+  },
+  {
+    id: 25,
+    src: pic26,
+    for: "slide26",
   },
 ];
 
