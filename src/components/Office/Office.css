@@ -133,3 +133,27 @@ body {
   -webkit-line-clamp: 3;
   overflow: hidden;
 }    
+
+
+#year-options {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
+.filter-option,
+.active-option {
+  padding: 10px 20px;
+  min-width: 50px;
+  border-radius: 2rem;
+}
+
+.filter-option:hover,
+.active-option {
+  background-color: var(--min-blue);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  transition: all 0.1s;
+}

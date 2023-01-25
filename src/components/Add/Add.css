@@ -4,6 +4,16 @@ input {
   caret-color: red;
 }
 
+#add {
+  padding: 0 6rem;
+}
+
+.add-flex{ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 #add h1 {
   color: var(--blue);
   font-size: 3em;
@@ -16,16 +26,19 @@ input {
 }
 
 #add .container {
-  position: relative;
-  width: 70%;
-  height: auto;
-  border-radius: 20px;
-  padding:  2em 7em;
-  margin: 4em auto;
-  box-sizing: border-box;
-  background-color: var(--white);
-  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+ position: relative;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    padding: 2em;
+    box-sizing: border-box;
+    background-color: var(--white);
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+
 
 
 
@@ -65,18 +78,16 @@ input {
 }
 
 #add button {
-  margin-bottom: 2em;
-  padding: 0;
+  padding: 12px;
   border: none;
   outline: none;
-  width: 40%;
+  width: 100%;
   color: white;
-  margin-top: 20px;
   background: #1DA1F2;
-  height: 40px;
   border-radius: 20px;
   cursor: pointer;
   font-weight: 900;
+  font-size: 24px;
   box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
   transition: 0.5s;
 }
@@ -88,3 +99,8 @@ input {
 .add-wave-btm {
   margin-bottom: -8.4em;
 }
+
+.add-image {
+  width: 50%;
+}
+

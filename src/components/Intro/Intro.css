@@ -81,6 +81,7 @@ color: var(--orange);}
   position: absolute;
   right: 0;
   width: 46%;
+  z-index: 99;
 }
 
 .right img {

@@ -20,10 +20,10 @@ export default function Creed() {
             <span className="charte"> نحن نعتقد</span>
             <br />
             <span className="charte">
-              أن الإيمان بالله يعطي للحياة معناها الحقيق
+              أن الإيمان بالله يعطي للحياة معناها الحقيقي
             </span>
             <br />
-            <span className="charte">أن التآخي البشري يفوقون سيادة الدول</span>
+            <span className="charte">أن التآخي البشري يفوق سيادة الدول</span>
             <br />
             <span className="charte">
               أن الاجتهاد وحرية الأفراد يضمنان العدالة الاجتماعية و الاقتصادية

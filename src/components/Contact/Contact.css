@@ -3,22 +3,19 @@
   background-color: var(--blue);
   position: relative;
   z-index: -66;
-  padding: 20em;
-  display: flex;
-  flex-direction: column;
-  gap: 3em;
-  margin: 0.5em 0 3em 0 ;
+  padding: 4rem;
+   display: flex;
+  justify-content: space-around;
+  align-items: center; 
 }
 
 .contact-image {
-  margin-top: -3rem;
+  margin-top: -2.4rem;
 }
 
 .login-box {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  width: 400px;
+  margin: 32em 0 0 16em;
+  width: 600px;
   padding: 40px;
   transform: translate(-50%, -50%);
   background: rgba(0,0,0,.5);
@@ -170,4 +167,8 @@
   50%,100% {
     bottom: 100%;
   }
+}
+
+.ContactImage{
+  width: 50%;
 }

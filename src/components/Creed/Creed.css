@@ -10,7 +10,7 @@
 
 .creedo-flex {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
   margin: auto;
   width: 80%;

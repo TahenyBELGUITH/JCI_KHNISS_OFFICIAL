@@ -1,8 +1,8 @@
 #event{
  background-color: var(--blue);
- height: 60vh;
+ height: 120vh;
  margin-bottom: -2rem;
- padding: 6rem;
+ padding: 3rem 6rem;
  text-align: center;
 }
 
@@ -28,4 +28,5 @@ font-size: 5em;
  padding: 13px;
  color: var(--white);
 font-size: 2rem;
+margin-top: 2rem;
 }

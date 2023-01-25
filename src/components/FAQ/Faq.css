@@ -40,11 +40,11 @@ body .container .card:nth-child(4) .box .content a {
 }
 
 body .container .card:nth-child(5) .box .content a {
-  background: var(--pink);
+  background: var(--black);
 }
 
 body .container .card:nth-child(6) .box .content a {
-  background: var(--purple);
+  background: var(--pink);
 }
 
 body .container .card .box {

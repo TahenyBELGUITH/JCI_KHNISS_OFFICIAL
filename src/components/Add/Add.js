@@ -1,41 +1,29 @@
 import React from "react";
 import "./Add.css";
-import addWave from "../../Images/Decor/addwWave.svg";
-import addWaveBtm from "../../Images/Decor/addbtmwave.svg";
+
+import addImage from "../../Images/add/add.svg";
 
 const Add = () => {
   return (
-    <div id="add">
-      <img src={addWave} />
-      <h1 align="center">💙 Glade to see you among us 💙 </h1>
-      <div className="container">
-        <div className="inputs">
-          <form>
-            <label>EMAIL</label>
-            <input type="email" placeholder="example@test.com" />
-            <label>FIRST NAME</label>
-            <input type="text" placeholder="Taheny" />
-            <label>LAST NAME</label>
-            <input type="text" placeholder="Belguith" />
-            <label>DATE OF BIRTH</label>
-            <input type="date" />
-            <label>PLACE OF RESIDENCE</label>
-            <input type="text" />
-            <p>Please select your Profession :</p>
-            <select name="profession" id="profession">
-              <option value="">--Choose an option--</option>
-              <option value="raised">RAISED</option>
-              <option value="student">STUDENT</option>
-              <option value="employee">EMPLOYEE</option>
-              <option value="other">OTHER</option>
-            </select>
+    <>
+      <div id="add">
+        <h1 align="center">💙 Glade to see you among us 💙 </h1>
 
-            <button type="submit"> JOIN US </button>
-          </form>
+        <div className="add-flex">
+          <img className="add-image" src={addImage} />
+
+          <div className="container">
+            <h2>We will call you as soon as possible </h2>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSd7eumhfSLGpJeJxo8ruv0bkZu0bPYD05EhaOsb45q81qtTcg/viewform?fbclid=IwAR0fI35RonDPrWhKisTAV7G4jD59Hcn71QsVCYrLJQj2TMfevA4RY6_wWeo"
+              target={"_blank"}
+            >
+              <button>Start now! </button>
+            </a>
+          </div>
         </div>
       </div>
-      <img src={addWaveBtm} className="add-wave-btm" />
-    </div>
+    </>
   );
 };
 

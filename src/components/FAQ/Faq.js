@@ -2,6 +2,7 @@ import React from "react";
 import "./Faq.css";
 import { cardTable } from "../../Data/Data";
 import FaqWave from "../../Images/Decor/faqwave.svg";
+import addWave from "../../Images/Decor/addwWave.svg";
 
 const Faq = () => {
   return (
@@ -27,6 +28,7 @@ const Faq = () => {
           );
         })}
       </div>
+      <img src={addWave} />;
     </div>
   );
 };
