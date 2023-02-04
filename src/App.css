@@ -6,6 +6,7 @@
  box-sizing: border-box;
  font-family: 'Changa', sans-serif;
  cursor: pointer;
+scroll-behavior: smooth;
 }
 
 

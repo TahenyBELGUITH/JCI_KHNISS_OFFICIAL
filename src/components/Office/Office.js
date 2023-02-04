@@ -1,26 +1,27 @@
 import React, { useState, useEffect } from "react";
 import "./Office.css";
 import { officeTable, officeYearTable } from "../../Data/Data";
+import { type } from "@testing-library/user-event/dist/type";
 import Social from "../Social/Social";
-
 const Office = () => {
   // Selected Year filter
-  const [item, setItem] = useState({ year: 2023 });
-  const [office, setOffice] = useState(officeTable[0].year);
+  const [item, setItem] = useState({ mondat: 2023 });
+  const [office, setOffice] = useState([]);
 
   useEffect(() => {
-    const newFilteredOffice = officeTable.filter((office) => {
-      return office.year === item.year;
+    let newFilteredOffice = officeTable.filter((office) => {
+      return office.year === item.mondat;
     });
     setOffice(newFilteredOffice);
   }, [item]);
 
   const handleClick = (e) => {
-    setItem({ year: e.target.textContent });
+    setItem({ mondat: +e.target.textContent });
   };
+
   return (
     <div id="office">
-      <div className="d-flex">
+      <div className="d-flex officeYears">
         <h1>Executive Office</h1>
         <div id="year-options">
           {officeYearTable.map((yearOffice, index) => {
@@ -43,7 +44,7 @@ const Office = () => {
       </div>
 
       <ul className="cards">
-        {officeTable.map((office, index) => {
+        {office.map((office, index) => {
           return (
             <li key={index}>
               <a href="" className="card">
@@ -73,8 +74,11 @@ const Office = () => {
           );
         })}
       </ul>
-      {console.log(item)}
-      <h1>{item.year}</h1>
+
+      {/* {office.map((item, index) => {
+        return <OfficeCard item={item} key={index} />;
+      })} */}
+      {/* <h1>{item.year}</h1> */}
     </div>
   );
 };

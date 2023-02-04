@@ -4,7 +4,7 @@ import Social from "../Social/Social";
 const Footer = () => {
   return (
     <div className="footer">
-      <p align="center" className="p-6">
+      <h4 align="center" className="p-6">
         &copy; 2023{" "}
         <span className="footer-span">
           <a href="https://github.com/TahenyBELGUITH" target="_blank">
@@ -12,8 +12,8 @@ const Footer = () => {
           </a>
         </span>{" "}
         . All rights reserved.
-      </p>
-      <Social />
+      </h4>
+      <h4>Made with 💟 </h4>
     </div>
   );
 };

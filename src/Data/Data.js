@@ -739,22 +739,22 @@ export const officeTable = [
 export const officeYearTable = [
   {
     id: 0,
-    mondat: "2019",
+    mondat: 2019,
   },
   {
     id: 0,
-    mondat: "2020",
+    mondat: 2020,
   },
   {
     id: 0,
-    mondat: "2021",
+    mondat: 2021,
   },
   {
     id: 0,
-    mondat: "2022",
+    mondat: 2022,
   },
   {
     id: 0,
-    mondat: "2023",
+    mondat: 2023,
   },
 ];

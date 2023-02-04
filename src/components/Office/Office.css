@@ -9,18 +9,30 @@
 
 
 #office {
-  border: 3px solid red;
-  margin-top: 12rem;
+  padding: 2rem;
+  margin: 6rem auto;
 }
+
+
 
 body {
   font-family: 'Noto Sans JP', sans-serif;
   background-color: #fef8f8;
 }
 
-#office select {
-  width: 20%;
+.officeYears {
+  flex-direction: column;
 }
+
+.officeYears h1 {
+  font-size: 5rem;
+}
+
+.officeYears h1:hover {
+  border-bottom: 2px solid var(--min-blue);
+  color: var(--min-blue);
+}
+
 
 .d-flex {
   display: flex;

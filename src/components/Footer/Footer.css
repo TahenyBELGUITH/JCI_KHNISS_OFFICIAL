@@ -3,14 +3,10 @@
  position: right;
  display: flex;
  align-items: center;
- justify-content: space-between;
- width: 90%;
- margin: auto;
-}
-
-.footer p {
-  position: relative;
- right: 0;
+ justify-content: space-around;
+ width: 70%;
+ flex-direction: column;
+ margin: 1rem auto;
 }
 
 .footer-span a {

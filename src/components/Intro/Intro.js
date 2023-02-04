@@ -22,13 +22,17 @@ const Intro = () => {
             <br></br> Join us on this journey...
           </p>
           <div className="cta">
-            <button type="button">Get started now!</button>
-            <button type="button">Let's chat!</button>
+            <a href="#add">
+              <button type="button">Get started now!</button>
+            </a>
+            <a href="#contact">
+              <button type="button">Let's chat!</button>
+            </a>
           </div>
         </div>
       </div>
 
-      <div class="area">
+      {/* <div class="area">
         <ul class="circles">
           <li></li>
           <li></li>
@@ -41,7 +45,7 @@ const Intro = () => {
           <li></li>
           <li></li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };

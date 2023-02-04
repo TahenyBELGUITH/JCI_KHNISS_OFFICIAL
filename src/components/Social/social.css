@@ -1,16 +1,24 @@
 .nav-social-list {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.8rem;
-  width: 100%;
+  width: 50%;
+  margin: auto;
   height: auto;
+  list-style: none;
 }
 
 .footer-nav-items {
-  background-color:  var(--blue);
-  border-radius: 30%;
-  padding: 10px;
+  background-color: transparent;
+  font-size: 2rem;
 }
+
+.footer-nav-items:hover {
+  color: var(--orange);
+}
+
+
 
 
 .about__container {

@@ -17,7 +17,6 @@ input {
 #add h1 {
   color: var(--blue);
   font-size: 3em;
-  margin: 1em 0 0 0;
 }
 
 #add h1:hover {
