@@ -1,5 +1,5 @@
 //  icons
-import { FiInstagram, FiFacebook, FiMail, FiGithub } from "react-icons/fi";
+import { FiInstagram, FiFacebook, FiMail, FiGithub, FiLinkedin } from "react-icons/fi";
 import { HiHome } from "react-icons/hi";
 import {
   BsFillFileTextFill,
@@ -791,5 +791,11 @@ export const socialJCI = [
     id: 3,
     icon: <TfiTwitterAlt />,
     href: "https://twitter.com/BelguithTaheny",
+  },
+
+  {
+    id: 4,
+    icon: <FiLinkedin />,
+    href: "https://www.linkedin.com/in/belguith-taheny/",
   },
 ];

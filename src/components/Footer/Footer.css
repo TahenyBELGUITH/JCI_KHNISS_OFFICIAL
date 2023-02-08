@@ -13,3 +13,9 @@
   text-decoration: underline;
   font-size: 1em;
 }
+
+
+@media screen and (max-width: 480px) {
+  .footer
+{width: 100%;}
+}

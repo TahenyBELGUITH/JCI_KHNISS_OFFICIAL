@@ -7,8 +7,8 @@ const Intro = () => {
   return (
     <div className="intro-wrapper" id="home">
       <h1 className="heading-wrapper">
-         We are <span className="intro-span">JAYCEES KHNISS </span>
-        young <span className="intro-span">active </span> citizens ... 
+        We are <span className="intro-span">JAYCEES KHNISS </span>
+        young <span className="intro-span">active </span> citizens ...
       </h1>
       <div className="intro-content d-flex">
         <div className="right">
@@ -18,8 +18,10 @@ const Intro = () => {
           <p>
             Are you a young <span className="intro-span">active </span>citizen?{" "}
             <br></br>Do you want to make a
-            <span className="intro-span"> difference</span> in your community?
-            <br></br> Join us on this journey...
+            <span className="intro-span"> positive impact </span> in your
+            community?
+            <br></br> <span className="intro-span">Join us </span> on this
+            journey
           </p>
           <div className="i-buttons">
             <a href="#add">
@@ -35,7 +37,6 @@ const Intro = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 };

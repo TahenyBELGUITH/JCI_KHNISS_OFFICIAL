@@ -55,9 +55,8 @@ li:hover{
 }
 
 
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 .nav-container {
- width: 90%;
- background-color: red;
+ display: none;
 }
-}  */
+} 

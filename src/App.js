@@ -10,11 +10,13 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BackToTop from "./components/backToTop/BackToTop";
 import About from "./components/About/About";
+import MobileNav from "./components/MobileNav/MobileNav";
 
 function App() {
   return (
     <div className="App">
       <Nav />
+      {/* <MobileNav /> */}
       <Intro />
       <Creed />
       <About />

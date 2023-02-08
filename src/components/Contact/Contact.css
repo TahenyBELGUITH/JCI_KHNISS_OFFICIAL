@@ -179,7 +179,15 @@
 @media screen and (max-width: 480px) {
   #contact {
     padding: 0;
+    height: 100vh;
   }
 
-  .ContactImage{display: none;}
+  .ContactImage,.contact-image{display: none;}
+
+  .login-box{
+  margin: 3em 0 0 0;
+  width: 80%;
+  padding: 40px;
+  transform: none;
+}
 }
