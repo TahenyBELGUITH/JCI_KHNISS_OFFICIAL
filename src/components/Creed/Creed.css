@@ -27,8 +27,7 @@
 .creed-wrapper h2 {
  color: var(--white);
  text-align: center;
- font-size: 9em;
- font-family: 'Roboto', sans-serif;
+ font-size: 150px;
 }
 
 .intro-headings h1:hover,
@@ -42,7 +41,7 @@
  text-align: center;
  font-size: 8em;
 font-family: 'Kings', cursive;
- margin: -8rem -25rem 0 0;
+ margin: -11rem -25rem 0 0;
 }
 
 

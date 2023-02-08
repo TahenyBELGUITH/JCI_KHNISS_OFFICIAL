@@ -27,6 +27,11 @@
   color: var(--min-blue);
 }
 
+.intro-span:hover {
+  color: var(--orange);
+}
+
+
 .left {
 width: 60%;
 position: absolute;
@@ -40,11 +45,12 @@ left: 0;
 }
 
 .left p:hover {
-color: var(--orange);}
+color: var(--orange);
+}
 
-.left button:nth-child(even) {
+.cta1{
   background-color: transparent;
-  color: var(--min-blue);
+  color: var(--white);
   border: 2px solid var(--min-blue);
   padding: 12px;
   margin: 2rem 22px;
@@ -53,13 +59,12 @@ color: var(--orange);}
   outline: none;
 }
 
-.left button:nth-child(even):hover{
+.cta1:hover{
   color: var(--orange);
   border: 2px solid var(--orange);
 }
 
-
-.left button:nth-child(odd) {
+.cta2 {
   background-color: var(--min-blue);
   color: var(--white);
   border: none;
@@ -70,11 +75,13 @@ color: var(--orange);}
   border-radius: 15px;
 }
 
-.left button:nth-child(odd):hover {
+.cta2:hover {
   background-color: transparent;
   color: var(--orange);
   border: 2px solid var(--orange);
 }
+
+
 
 .right {
   position: absolute;

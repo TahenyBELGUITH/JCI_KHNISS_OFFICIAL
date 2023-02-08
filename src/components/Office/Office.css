@@ -26,11 +26,11 @@ body {
 
 .officeYears h1 {
   font-size: 5rem;
+  color: var(--min-blue);
 }
 
 .officeYears h1:hover {
-  border-bottom: 2px solid var(--min-blue);
-  color: var(--min-blue);
+  color: var(--orange);
 }
 
 

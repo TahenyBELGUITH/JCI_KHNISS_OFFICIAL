@@ -21,10 +21,7 @@ const Event = () => {
   return (
     <div id="event">
       {/* <img src={EventWave} /> */}
-      <h1 className="intro-span event-heading">
-        {" "}
-        🤍 Discover Our Activities 🤍{" "}
-      </h1>
+      <h1 className="intro-span event-heading">Discover Our Activities</h1>
 
       <>
         <Swiper
@@ -60,7 +57,7 @@ const Event = () => {
         href="https://www.facebook.com/JCI-Khniss-318957112019536"
         target="_blank"
       >
-        <button type="button">More events! 😍 </button>
+        <button type="button">Discover more events!</button>
       </a>
     </div>
   );

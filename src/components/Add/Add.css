@@ -20,8 +20,7 @@ input {
 }
 
 #add h1:hover {
-  color: var(--purple );
-  font-size: 3.5em;
+  color: var(--orange );
 }
 
 #add .container {

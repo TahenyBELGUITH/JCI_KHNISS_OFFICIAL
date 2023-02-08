@@ -7,8 +7,8 @@ const Intro = () => {
   return (
     <div className="intro-wrapper" id="home">
       <h1 className="heading-wrapper">
-        🤍 We are <span className="intro-span">JAYCEES KHNISS </span>
-        young <span className="intro-span">active </span> citizens ... 🤍
+         We are <span className="intro-span">JAYCEES KHNISS </span>
+        young <span className="intro-span">active </span> citizens ... 
       </h1>
       <div className="intro-content d-flex">
         <div className="right">
@@ -21,12 +21,16 @@ const Intro = () => {
             <span className="intro-span"> difference</span> in your community?
             <br></br> Join us on this journey...
           </p>
-          <div className="cta">
+          <div>
             <a href="#add">
-              <button type="button">Get started now!</button>
+              <button type="button" className="cta1">
+                Get started now!
+              </button>
             </a>
             <a href="#contact">
-              <button type="button">Let's chat!</button>
+              <button type="button" className="cta2">
+                Let's chat!
+              </button>
             </a>
           </div>
         </div>

@@ -1,8 +1,6 @@
 #contact {
   height: 140vh;
   background-color: var(--blue);
-  position: relative;
-  z-index: -66;
   padding: 4rem;
    display: flex;
   justify-content: space-around;
@@ -30,6 +28,11 @@
   color: #fff;
   text-align: center;
 }
+
+.login-box h2:hover {
+  color: var(--orange);
+}
+
 
 .login-box .user-box {
   position: relative;

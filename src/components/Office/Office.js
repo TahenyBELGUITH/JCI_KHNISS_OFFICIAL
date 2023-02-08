@@ -42,7 +42,6 @@ const Office = () => {
           })}
         </div>
       </div>
-
       <ul className="cards">
         {office.map((office, index) => {
           return (
@@ -73,12 +72,7 @@ const Office = () => {
             </li>
           );
         })}
-      </ul>
-
-      {/* {office.map((item, index) => {
-        return <OfficeCard item={item} key={index} />;
-      })} */}
-      {/* <h1>{item.year}</h1> */}
+      </ul>{" "}
     </div>
   );
 };

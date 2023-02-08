@@ -1,12 +1,8 @@
 .footer {
  padding: 0 0 4em 0;
  position: right;
- display: flex;
- align-items: center;
- justify-content: space-around;
- width: 70%;
- flex-direction: column;
- margin: 1rem auto;
+ margin: 0.5rem auto;
+ width: 90%;
 }
 
 .footer-span a {

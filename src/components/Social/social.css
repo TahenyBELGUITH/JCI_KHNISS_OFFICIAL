@@ -11,6 +11,7 @@
 
 .footer-nav-items {
   background-color: transparent;
+  color: var(--min-blue);
   font-size: 2rem;
 }
 

@@ -11,7 +11,7 @@ font-size: 4em;
 }
 
 .event-heading:hover {
-font-size: 5em;
+  color: var(--orange);
 }
 
 

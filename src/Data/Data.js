@@ -6,7 +6,7 @@ import {
   BsCalendarEvent,
   BsFillTelephoneForwardFill,
 } from "react-icons/bs";
-import { FaUsers, FaQuestion } from "react-icons/fa";
+import { FaUsers, FaQuestion, FaHistory } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 import { AiOutlineUserAdd } from "react-icons/ai";
 
@@ -96,28 +96,31 @@ export const navTable = [
   },
   {
     id: 3,
+    href: "#start",
+    name: <FaHistory />,
+  },
+  {
+    id: 4,
     href: "#office",
     name: <FaUsers />,
   },
   {
-    id: 4,
+    id: 5,
     href: "#event",
-    // page FB
     name: <BsCalendarEvent />,
   },
   {
-    id: 5,
+    id: 6,
     href: "#faq",
-    // page FB
     name: <FaQuestion />,
   },
   {
-    id: 6,
+    id: 7,
     href: "#add",
     name: <AiOutlineUserAdd />,
   },
   {
-    id: 7,
+    id: 8,
     href: "#contact",
     name: <BsFillTelephoneForwardFill />,
   },
@@ -417,7 +420,7 @@ export const cardTable = [
     number: "02",
     question: "What is JCI's vision?",
     answer: "To be the leading global network of young active citizens",
-    href: "",
+    href: "https://jci.cc/about",
   },
   {
     id: 2,
@@ -425,14 +428,14 @@ export const cardTable = [
     question: "What is JCI membership?",
     answer:
       "JCI is a nonprofit organization of young active citizens age 18 to 40 who are engaged and committed to creating impact in their communities",
-    href: "",
+    href: "https://jci.cc/about",
   },
   {
     id: 3,
     number: "04",
     question: "What are the benefits of joining JCI?",
     answer: "You'll broaden your network of contacts ...",
-    href: "",
+    href: "https://jci.cc/about",
   },
   {
     id: 4,
@@ -440,14 +443,14 @@ export const cardTable = [
     question: "Who can join JCI in Khniss ?",
     answer:
       "The membership is offered to everybody regardless of color, cast and creed between the age of 18 -40 years.",
-    href: "",
+    href: "https://jci.cc/about",
   },
   {
     id: 5,
     number: "06",
     question: "How much is JCI membership?",
     answer: "Our joining and annual fee is 50 TDN/Annual.",
-    href: "",
+    href: "https://jci.cc/about",
   },
 ];
 
