@@ -6,7 +6,7 @@ import addImage from "../../Images/add/add.svg";
 const Add = () => {
   return (
     <div id="add">
-      <h1 align="center">💙 Glade to see you among us 💙 </h1>
+      <h1 align="center"> Glade to see you among us </h1>
 
       <div className="add-flex">
         <img className="add-image" src={addImage} />

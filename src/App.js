@@ -14,8 +14,8 @@ import About from "./components/About/About";
 function App() {
   return (
     <div className="App">
-      <Intro />
       <Nav />
+      <Intro />
       <Creed />
       <About />
       <Office />

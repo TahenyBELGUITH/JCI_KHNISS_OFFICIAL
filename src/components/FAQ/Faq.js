@@ -28,7 +28,7 @@ const Faq = () => {
           );
         })}
       </div>
-      <img src={addWave} />;
+      <img src={addWave}  className="F-shape"/>;
     </div>
   );
 };

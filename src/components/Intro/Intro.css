@@ -32,6 +32,8 @@
 }
 
 
+
+
 .left {
 width: 60%;
 position: absolute;
@@ -94,3 +96,31 @@ color: var(--orange);
   width: 90%;
 }
 
+
+@media screen and (max-width: 480px) {
+#home h1,
+.left{
+  transform: scale(0.9);
+}
+
+.left{
+  width: 100%;
+}
+.right{
+  display: none;
+}
+
+
+.heading-wrapper {
+  padding: 0;
+}
+
+.i-buttons{
+  display: flex;
+  align-items: center;
+}
+
+.cta1,.cta2 {
+  padding: 10px;
+}
+}

@@ -1,5 +1,5 @@
 //  icons
-import { FiInstagram, FiFacebook } from "react-icons/fi";
+import { FiInstagram, FiFacebook, FiMail, FiGithub } from "react-icons/fi";
 import { HiHome } from "react-icons/hi";
 import {
   BsFillFileTextFill,
@@ -9,6 +9,7 @@ import {
 import { FaUsers, FaQuestion, FaHistory } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 import { AiOutlineUserAdd } from "react-icons/ai";
+import { TfiTwitterAlt } from "react-icons/tfi";
 
 import pic1 from "../Images/Intro/1.jpg";
 import pic2 from "../Images/Intro/2.jpg";
@@ -759,5 +760,36 @@ export const officeYearTable = [
   {
     id: 0,
     mondat: 2023,
+  },
+];
+
+// socialJCI
+
+export const socialJCI = [
+  {
+    id: 0,
+    icon: <FiFacebook />,
+    href: "https://www.facebook.com/taheni.belguith.71",
+  },
+  {
+    id: 1,
+    icon: <FiInstagram />,
+    href: "https://www.instagram.com/belguith_tahenyy/",
+  },
+  {
+    id: 2,
+    icon: <FiMail />,
+    href: "mailto:taheny.belguith@gmail.com",
+  },
+
+  {
+    id: 3,
+    icon: <FiGithub />,
+    href: "https://github.com/TahenyBELGUITH",
+  },
+  {
+    id: 3,
+    icon: <TfiTwitterAlt />,
+    href: "https://twitter.com/BelguithTaheny",
   },
 ];

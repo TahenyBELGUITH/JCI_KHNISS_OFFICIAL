@@ -1,10 +1,11 @@
 .backToTopClass{
  /* bg-accent w-12 h-12 hover:bg-accent-hover text-white rounded-full fixed right-24 bottom-24 cursor-pointer flex justify-center items-center transition-all animate-bounce */
 
- background-color: black;
+ background-color: var(--orange);
  width: 5rem;
  height: 5rem;
  color: white;
+ border: none;
  border-radius: 100%;
  position: fixed;
  right: 24px;

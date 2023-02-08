@@ -25,8 +25,7 @@ const About = () => {
           <p class="card-detail">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
             sequi recusandae laborum ipsam dignissimos nostrum vitae provident
-            officia, consectetur ab accusantium corrupti exercitationem
-            temporibus repellat non magni cupiditate ea reprehenderit.
+            officia, consectetur 
           </p>
         </div>
       </div>
@@ -36,8 +35,7 @@ const About = () => {
           <p class="card-detail">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
             sequi recusandae laborum ipsam dignissimos nostrum vitae provident
-            officia, consectetur ab accusantium corrupti exercitationem
-            temporibus repellat non magni cupiditate ea reprehenderit.
+            officia, consectetur ab 
           </p>
         </div>
       </div>
@@ -47,8 +45,7 @@ const About = () => {
           <p class="card-detail">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
             sequi recusandae laborum ipsam dignissimos nostrum vitae provident
-            officia, consectetur ab accusantium corrupti exercitationem
-            temporibus repellat non magni cupiditate ea reprehenderit.
+            officia, consectetur ab 
           </p>
         </div>
       </div>
@@ -58,8 +55,7 @@ const About = () => {
           <p class="card-detail">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
             sequi recusandae laborum ipsam dignissimos nostrum vitae provident
-            officia, consectetur ab accusantium corrupti exercitationem
-            temporibus repellat non magni cupiditate ea reprehenderit.
+            officia, consectetur 
           </p>
         </div>
       </div>

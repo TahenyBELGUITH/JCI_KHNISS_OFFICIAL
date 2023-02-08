@@ -30,3 +30,17 @@ font-size: 4em;
 font-size: 2rem;
 margin-top: 2rem;
 }
+
+@media screen and (max-width: 480px) {
+   .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    display: none;
+  }
+
+  #event {
+    padding: 3rem 0 0 0;
+  }
+
+  .event-heading {
+    font-size: 40px;
+  }
+}

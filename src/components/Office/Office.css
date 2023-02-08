@@ -169,3 +169,18 @@ body {
   justify-content: center;
   transition: all 0.1s;
 }
+
+@media screen and (max-width: 480px) {
+  .officeYears h1 {
+    font-size: 40px;
+  }
+
+  #year-options {
+    margin: 0;
+    gap: 0;
+    width: 100%;
+  }
+  #office {
+    margin: 6rem 0 0 0;
+}
+}

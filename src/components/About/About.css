@@ -115,3 +115,24 @@
     font-weight: 300;
     margin-bottom: 20px;
 }
+
+
+@media screen and (max-width: 480px) {
+ #start {
+  padding: 16px;
+ }
+
+ .timeline .heading {
+  font-size: 40px;
+  padding: 2rem;
+  margin-bottom: 60px;
+ }
+ .about-card:nth-child(1),
+ .about-card:nth-child(2),
+ .about-card:nth-child(3),
+ .about-card:nth-child(4)
+ ,.about-card:nth-child(5),
+ .about-card:nth-child(6){
+  width: 100%;
+ }
+}

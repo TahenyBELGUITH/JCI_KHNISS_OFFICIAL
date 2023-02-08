@@ -102,3 +102,27 @@ input {
   width: 50%;
 }
 
+@media screen and (max-width: 480px) {
+  #add {
+    padding: 0;
+  }
+
+  #add h1 {
+    font-size: 40px;
+  }
+
+  .add-image {display: none;
+  }
+
+  #add .container {
+    width: 80%;
+    margin: auto;
+  }
+
+  #add .container h2 {
+        font-size: 15px;
+    margin-bottom: 2rem;
+  }
+
+  .add-wave-btm  {display: none;}
+}

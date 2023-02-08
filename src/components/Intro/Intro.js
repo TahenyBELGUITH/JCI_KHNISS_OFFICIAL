@@ -21,7 +21,7 @@ const Intro = () => {
             <span className="intro-span"> difference</span> in your community?
             <br></br> Join us on this journey...
           </p>
-          <div>
+          <div className="i-buttons">
             <a href="#add">
               <button type="button" className="cta1">
                 Get started now!
@@ -36,20 +36,6 @@ const Intro = () => {
         </div>
       </div>
 
-      {/* <div class="area">
-        <ul class="circles">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </div> */}
     </div>
   );
 };

@@ -122,5 +122,17 @@ body .container .card .box .content a:hover {
   color: #000;
 }
 
+@media screen and (max-width: 480px) {
+ .faq-image {
+  display: none;
+ }
 
+ body .container {
+    padding: 2rem 0 4rem 0;
+}
 
+.F-shape{
+  display: none;
+}
+
+}

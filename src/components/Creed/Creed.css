@@ -70,3 +70,27 @@ font-family: 'Kings', cursive;
 .creed-span{
  color: var(--top-blue);
 }
+
+@media screen and (max-width: 480px) {
+  .credo-wave{
+    display: none;
+  }
+
+  .creed-wrapper h2{
+    font-size: 60px;
+  }
+
+  .creed-wrapper h1{
+    font-size: 3em;
+    margin: -4rem -12rem 0 0;
+  }
+
+  .creedo-left,
+  .credo-wave-btm  {
+    display: none;
+  }
+
+  .creedo-right {
+    width: 100%;
+  }
+}

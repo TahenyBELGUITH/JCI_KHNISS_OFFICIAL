@@ -1,12 +1,15 @@
 .footer {
- padding: 0 0 4em 0;
+ padding: 1em;
  position: right;
- margin: 0.5rem auto;
- width: 90%;
+ width: 30%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
 }
 
 .footer-span a {
- color: var(--blue);
+ color: var(--min-blue);
   text-decoration: underline;
   font-size: 1em;
 }
