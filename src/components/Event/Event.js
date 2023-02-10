@@ -54,7 +54,7 @@ const Event = () => {
         </Swiper>
       </>
       <a
-        href="https://www.facebook.com/JCI-Khniss-318957112019536"
+        href="https://www.facebook.com/profile.php?id=100069415920893&sk=photos"
         target="_blank"
       >
         <button type="button">Discover more events!</button>
