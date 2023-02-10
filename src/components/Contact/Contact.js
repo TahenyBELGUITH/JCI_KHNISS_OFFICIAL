@@ -14,15 +14,15 @@ const Contact = () => {
           <h2>🤍 Let's chat! 🤍</h2>
           <form>
             <div className="user-box">
-              <input type="email" name="" required />
+              <input type="email" name="email" required />
               <label>Email</label>
             </div>
             <div className="user-box">
-              <input type="text" name="" required />
+              <input type="text" name="object" required />
               <label>Object</label>
             </div>
             <div className="user-box">
-              <input type="text" name="" required />
+              <input type="text" name="message" required />
               <label> Your message</label>
             </div>
             <a href="mailto:taheny.belguith@gmail.com">
