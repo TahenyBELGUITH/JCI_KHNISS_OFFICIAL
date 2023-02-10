@@ -1,9 +1,7 @@
 .backToTopClass{
- /* bg-accent w-12 h-12 hover:bg-accent-hover text-white rounded-full fixed right-24 bottom-24 cursor-pointer flex justify-center items-center transition-all animate-bounce */
-
  background-color: var(--orange);
- width: 5rem;
- height: 5rem;
+ width: 4rem;
+ height: 4rem;
  color: white;
  border: none;
  border-radius: 100%;
@@ -12,4 +10,9 @@
  bottom: 24px;
  cursor: pointer;
  z-index: 99999;
+}
+
+.backToTopClass svg{
+ font-size: 2em;
+ margin: auto;
 }
