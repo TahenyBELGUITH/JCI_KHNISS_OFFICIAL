@@ -10,8 +10,8 @@ const Intro = () => {
   return (
     <div className="intro-wrapper" id="home">
       <div className="logo-jci">
-        <img src={zoneC} alt="jci-tunisie" />
         <img src={Khniss} alt="jci-khniss" />
+        <img src={zoneC} alt="jci-tunisie" />
       </div>
       <h1 className="heading-wrapper">
         We are <span className="intro-span">JAYCEES KHNISS </span>
