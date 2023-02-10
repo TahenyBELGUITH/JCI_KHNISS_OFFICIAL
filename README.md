@@ -24,7 +24,7 @@
 - `cd my_jci.git`
 - open file in preferred editor
 - Edit to your satisfaction
-- HTML, CSS Linter configuration - https://github.com/microverseinc/linters-config/tree/master/html-css
+- HTML, CSS Linter configuration - `https://github.com/microverseinc/linters-config/tree/master/html-css`
 
 
 ## Authors
