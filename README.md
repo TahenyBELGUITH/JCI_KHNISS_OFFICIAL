@@ -8,7 +8,7 @@
 
 
 ### link 
-[my App](https://my-jci.vercel.app/)
+[my App](https://jci-khniss-official.vercel.app/)
 
 ### Prerequisites
 - Create Github repository
