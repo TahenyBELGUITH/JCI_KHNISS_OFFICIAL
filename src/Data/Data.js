@@ -1,5 +1,11 @@
 //  icons
-import { FiInstagram, FiFacebook, FiMail, FiGithub, FiLinkedin } from "react-icons/fi";
+import {
+  FiInstagram,
+  FiFacebook,
+  FiMail,
+  FiGithub,
+  FiLinkedin,
+} from "react-icons/fi";
 import { HiHome } from "react-icons/hi";
 import {
   BsFillFileTextFill,
@@ -86,44 +92,52 @@ import Achraf from "../Images/Office/achraf.jpg";
 // navigation
 export const navTable = [
   {
-    id: 1,
+    id: 0,
     href: "#home",
     name: <HiHome />,
+    navMobileName: "#Home",
+  },
+  {
+    id: 1,
+    href: "#creed",
+    name: <BsFillFileTextFill />,
+    navMobileName: "#Creed",
   },
   {
     id: 2,
-    href: "#creed",
-    name: <BsFillFileTextFill />,
+    href: "#start",
+    name: <FaHistory />,
+    navMobileName: "#History",
   },
   {
     id: 3,
-    href: "#start",
-    name: <FaHistory />,
+    href: "#office",
+    name: <FaUsers />,
+    navMobileName: "#Executive_Office",
   },
   {
     id: 4,
-    href: "#office",
-    name: <FaUsers />,
+    href: "#event",
+    name: <BsCalendarEvent />,
+    navMobileName: "#Events",
   },
   {
     id: 5,
-    href: "#event",
-    name: <BsCalendarEvent />,
+    href: "#faq",
+    name: <FaQuestion />,
+    navMobileName: "#FAQ",
   },
   {
     id: 6,
-    href: "#faq",
-    name: <FaQuestion />,
+    href: "#add",
+    name: <AiOutlineUserAdd />,
+    navMobileName: "#Join_us",
   },
   {
     id: 7,
-    href: "#add",
-    name: <AiOutlineUserAdd />,
-  },
-  {
-    id: 8,
     href: "#contact",
     name: <BsFillTelephoneForwardFill />,
+    navMobileName: "#Contact",
   },
 ];
 
@@ -462,7 +476,12 @@ export const officeTable = [
     name: "Abdelhamid SAKLY",
     src: Abdelhamid,
     post: "President",
-    href: "https://www.facebook.com/abdelhamid.sakly.75",
+    faceHref: "https://www.facebook.com/abdelhamid.sakly.75",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/abdelhamid-sakly-392247153/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/abdullhamid_sk/",
+    instIcon: <FiInstagram />,
     year: 2023,
   },
   {
@@ -470,7 +489,12 @@ export const officeTable = [
     name: "Abdellatif KRAIEM",
     src: Abdellatif,
     post: "P.President",
-    href: "https://www.facebook.com/abdellatif.kraiem1",
+    faceHref: "https://www.facebook.com/abdellatif.kraiem1",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/kraiem-abdellatif-1b7793155/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/abdellatifkraiem/",
+    instIcon: <FiInstagram />,
     year: 2023,
   },
   {
@@ -478,7 +502,12 @@ export const officeTable = [
     name: "Chourouk BOUSSAID",
     src: Chourouk,
     post: "VPDF",
-    href: "https://www.facebook.com/bousaid.chourouk",
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2023,
   },
   {
@@ -494,7 +523,12 @@ export const officeTable = [
     name: "Chedly TRIMECH",
     src: Chedly,
     post: "Treasurer",
-    href: "https://www.facebook.com/Trimakus.Chedly",
+    faceHref: "https://www.facebook.com/Trimakus.Chedly",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/Trimakus.Chedly/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/Trimakus.Chedly/",
+    instIcon: <FiInstagram />,
     year: 2023,
   },
   {
@@ -503,6 +537,13 @@ export const officeTable = [
     src: Salouha,
     post: "G.secretary",
     href: "https://www.facebook.com/sasou.salouha.1",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2023,
   },
   {
@@ -511,6 +552,13 @@ export const officeTable = [
     src: Altaf,
     post: "Jural advisor",
     href: "https://www.facebook.com/miss.altafallah",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2023,
   },
 
@@ -520,6 +568,13 @@ export const officeTable = [
     src: Abdellatif,
     post: "President",
     href: "https://www.facebook.com/abdellatif.kraiem1",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2022,
   },
   {
@@ -528,6 +583,13 @@ export const officeTable = [
     src: Nawress,
     post: "P.President",
     href: "https://www.facebook.com/naouress.kraiem",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2022,
   },
   {
@@ -536,6 +598,13 @@ export const officeTable = [
     src: Taheny,
     post: "VPDF",
     href: "https://www.facebook.com/taheni.belguith.71",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2022,
   },
   {
@@ -544,6 +613,13 @@ export const officeTable = [
     src: Abdelhamid,
     post: "VPPRE",
     href: "https://www.facebook.com/abdelhamid.sakly",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2022,
   },
   {
@@ -552,6 +628,13 @@ export const officeTable = [
     src: Salma,
     post: "Treasurer",
     href: "https://www.facebook.com/salma.jls",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2022,
   },
   {
@@ -560,6 +643,13 @@ export const officeTable = [
     src: Chourouk,
     post: "G.secretary",
     href: "https://www.facebook.com/chourouk.bsd",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2022,
   },
   {
@@ -568,6 +658,13 @@ export const officeTable = [
     src: Rabii,
     post: "Jural advisor",
     href: "https://www.facebook.com/rabii.kraiem.31",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2022,
   },
   {
@@ -576,6 +673,13 @@ export const officeTable = [
     src: Nawress,
     post: "President",
     href: "https://www.facebook.com/naouress.kraiem",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2021,
   },
   {
@@ -584,6 +688,13 @@ export const officeTable = [
     src: Hamza,
     post: "P.President",
     href: "https://www.facebook.com/profile.php?id=100006194268779",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2021,
   },
   {
@@ -592,6 +703,13 @@ export const officeTable = [
     src: Amine,
     post: "VPDF",
     href: "https://www.facebook.com/med.amine.bsd",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/med-amine-boussaid-1a2350238/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2021,
   },
   {
@@ -600,6 +718,13 @@ export const officeTable = [
     src: Abdellatif,
     post: "VPPRE",
     href: "https://www.facebook.com/abdellatif.kraiem1",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2021,
   },
   {
@@ -608,6 +733,13 @@ export const officeTable = [
     src: Habib,
     post: "Treasurer",
     href: "https://www.facebook.com/profile.php?id=100009280604200",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2021,
   },
   {
@@ -616,6 +748,13 @@ export const officeTable = [
     src: Siwar,
     post: "G.secretary",
     href: "https://www.facebook.com/siwar.trimech",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2021,
   },
   {
@@ -624,6 +763,13 @@ export const officeTable = [
     src: Sirine,
     post: "Jural advisor",
     href: "https://www.facebook.com/syrine.sarouna.39",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2021,
   },
   {
@@ -632,6 +778,13 @@ export const officeTable = [
     src: Hamza,
     post: "President",
     href: "https://www.facebook.com/profile.php?id=100006194268779",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2020,
   },
   {
@@ -640,6 +793,13 @@ export const officeTable = [
     src: Ahlem,
     post: "P.President",
     href: "https://www.facebook.com/ahlem.hadded.102",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2020,
   },
   {
@@ -648,6 +808,13 @@ export const officeTable = [
     src: Nawress,
     post: "VPDF",
     href: "https://www.facebook.com/naouress.kraiem",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2020,
   },
   {
@@ -656,6 +823,13 @@ export const officeTable = [
     src: Saif,
     post: "VPPRE",
     href: "https://www.facebook.com/majhouls.trimech.9",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2020,
   },
   {
@@ -664,6 +838,13 @@ export const officeTable = [
     src: Habib,
     post: "Treasurer",
     href: "https://www.facebook.com/profile.php?id=100009280604200",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2020,
   },
   {
@@ -672,6 +853,13 @@ export const officeTable = [
     src: Taheny,
     post: "G.secretary",
     href: "https://www.facebook.com/taheni.belguith.71",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2020,
   },
   {
@@ -680,6 +868,13 @@ export const officeTable = [
     src: Siwar,
     post: "Jural advisor",
     href: "https://www.facebook.com/siwar.trimech",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/siw%C3%A0r-trimech-b875a21b6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2020,
   },
   {
@@ -687,7 +882,13 @@ export const officeTable = [
     name: "Ahlem HADDAD",
     src: Ahlem,
     post: "President",
-    href: "https://www.facebook.com/ahlem.hadded.102",
+    faceHref: "https://www.facebook.com/ahlem.hadded.102",
+    faceIcon: <FiFacebook />,
+    linkHref:
+      "https://www.linkedin.com/in/ahlem-haddad-384175176?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACmrxtQBHcVqfzwJBTC_Q5YGyPDTTHeGjZ0&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BAVbtq7LKRSWkpyQQCggeoQ%3D%3D",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2019,
   },
   {
@@ -696,6 +897,13 @@ export const officeTable = [
     src: Karim,
     post: "P.President",
     href: "https://www.facebook.com/karim.jci",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2019,
   },
   {
@@ -704,6 +912,13 @@ export const officeTable = [
     src: Achraf,
     post: "VPDF",
     href: "https://www.facebook.com/boughamouraachraf",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2019,
   },
   {
@@ -712,6 +927,13 @@ export const officeTable = [
     src: Hamza,
     post: "VPPRE",
     href: "https://www.facebook.com/profile.php?id=100006194268779",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2019,
   },
   {
@@ -720,6 +942,13 @@ export const officeTable = [
     src: Abdellatif,
     post: "Treasurer",
     href: "https://www.facebook.com/abdellatif.kraiem1",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2019,
   },
   {
@@ -727,7 +956,12 @@ export const officeTable = [
     name: "Nawress KRAIEM",
     src: Nawress,
     post: "G.secretary",
-    href: "https://www.facebook.com/naouress.kraiem",
+    faceHref: "https://www.facebook.com/naouress.kraiem",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/naoures-kraiem-/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/naouress.kraiem/",
+    instIcon: <FiInstagram />,
     year: 2019,
   },
   {
@@ -736,6 +970,13 @@ export const officeTable = [
     src: Taheny,
     post: "Jural advisor",
     href: "https://www.facebook.com/taheni.belguith.71",
+
+    faceHref: "https://www.facebook.com/bousaid.chourouk",
+    faceIcon: <FiFacebook />,
+    linkHref: "https://www.linkedin.com/in/boussaid-chourouk-b612331a6/",
+    linkIcon: <FiLinkedin />,
+    instHref: "https://www.instagram.com/chouroukboussaid/",
+    instIcon: <FiInstagram />,
     year: 2019,
   },
 ];

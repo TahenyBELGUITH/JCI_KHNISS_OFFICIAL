@@ -48,3 +48,10 @@ body {
 img {
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 480px) {
+html, body {
+  overflow-x:hidden 
+} 
+}

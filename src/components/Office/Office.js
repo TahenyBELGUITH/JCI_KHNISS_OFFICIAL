@@ -65,7 +65,17 @@ const Office = () => {
                     </div>
                   </div>
                   <div className="card__description">
-                    <Social />
+                    <ul>
+                      <a href={office.faceHref} key={index} target="_blank">
+                        <li>{office.faceIcon}</li>
+                      </a>
+                      <a href={office.instHref} key={index} target="_blank">
+                        <li>{office.instIcon}</li>
+                      </a>
+                      <a href={office.linkHref} key={index} target="_blank">
+                        <li>{office.linkIcon}</li>
+                      </a>
+                    </ul>
                   </div>
                 </div>
               </a>

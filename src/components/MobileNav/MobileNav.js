@@ -2,10 +2,13 @@ import React, { useState } from "react";
 import "./MobileNav.css";
 import { navTable } from "../../Data/Data";
 import { motion } from "framer-motion";
+// import icons
+import { XIcon } from "@heroicons/react/outline";
+import { MenuAlt3Icon } from "@heroicons/react/outline";
 
+// import framer-motion
 
-import { FiMenu } from "react-icons/fi";
-import { TfiClose } from "react-icons/tfi";
+import { Link } from "react-scroll";
 const MobileNav = () => {
   const [isOpen, setIsOpen] = useState(false);
   // framer-motion variants
@@ -33,23 +36,54 @@ const MobileNav = () => {
         delay: 0.1,
       },
     },
- };
- 
-
+  };
   return (
-    <div className="n-wrapper" id="Navbar">
-      <FiMenu />
-      <TfiClose />
-      <ul>
-        {navTable.map((nav, index) => {
+    <nav className="nav-relative" id="nav-mobile">
+      {/* menu icons */}
+      <div onClick={() => setIsOpen(true)}>
+        <MenuAlt3Icon className="cursor"></MenuAlt3Icon>
+      </div>
+
+      <motion.div
+        className="initial-nav"
+        variants={circleVariants}
+        initial="hidden"
+        animate={isOpen ? "visible" : "hidden"}
+      ></motion.div>
+
+      {/* menu */}
+      <motion.ul
+        className={`${isOpen ? "right-0" : "right-full"} list-nav-mobile`}
+        variants={ulVariants}
+        initial="hidden"
+        animate={isOpen ? "visible" : ""}
+      >
+        {/* close icon */}
+        <div
+          onClick={() => {
+            setIsOpen(false);
+          }}
+          className="nav-close-wrapper"
+        >
+          <XIcon />
+        </div>
+        {navTable.map((item, index) => {
           return (
-            <a key={index} href={nav.href}>
-              <li>{nav.href}</li>
-            </a>
+            <li key={index} className="items-list">
+              <a
+                href={item.href}
+                className="items"
+                onClick={() => {
+                  setIsOpen(false);
+                }}
+              >
+                {item.navMobileName}
+              </a>
+            </li>
           );
         })}
-      </ul>
-    </div>
+      </motion.ul>
+    </nav>
   );
 };
 

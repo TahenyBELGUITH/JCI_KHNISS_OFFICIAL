@@ -29,7 +29,7 @@
 }
 
 
-a,li{
+.nav-list a, .nav-list li{
  list-style : none;
  cursor: pointer;
  text-decoration: none;
@@ -37,7 +37,7 @@ a,li{
 
 }
 
-li:hover{
+.nav-list li:hover{
  border-top: 2px solid var(--min-blue);
  color: var(--min-blue);
 }
@@ -46,6 +46,15 @@ li:hover{
  gap: 1rem;
 }
 
+.nav-social ul li {
+ list-style: none;
+ color: var(--min-blue);
+ font-size: 1.3em;
+}
+
+.nav-social ul li:hover {
+ color: var(--orange);
+}
 .nav-span {
  color: var(--orange);
 }
