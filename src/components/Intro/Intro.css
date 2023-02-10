@@ -7,7 +7,7 @@
 .intro-wrapper {
   background-color: var(--blue);
   height: 90vh;
-  padding-top: 3rem;
+  padding-top: 1rem;
   text-align: center;
 }
 
@@ -96,6 +96,18 @@ color: var(--orange);
   width: 90%;
 }
 
+.logo-jci {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.logo-jci img {
+ width: 9%;
+ height: 9%;
+}
 
 @media screen and (max-width: 480px) {
 #home h1,
@@ -122,5 +134,9 @@ color: var(--orange);
 
 .cta1,.cta2 {
   padding: 10px;
+}
+
+.logo-jci {
+  display: none;
 }
 }

@@ -56,7 +56,11 @@ const Office = () => {
                     >
                       <path />
                     </svg>
-                    <img className="card__thumb" src={office.src} alt="" />
+                    <img
+                      className="card__thumb"
+                      src={office.src}
+                      alt="office member"
+                    />
                     <div className="card__header-text">
                       <h2 className="card__title">{office.name}</h2>
                       <h3 className="card__status">

@@ -1,11 +1,18 @@
 import "./Intro.css";
 import Team from "../../Images/Intro/team.svg";
+import zoneC from "../../Images/jci/zonec.png"
+import Khniss from "../../Images/jci/khniss.png"
+
 //
 import React from "react";
 
 const Intro = () => {
   return (
     <div className="intro-wrapper" id="home">
+      <div className="logo-jci">
+        <img src={zoneC} alt="jci-tunisie" />
+        <img src={Khniss} alt="jci-khniss" />
+      </div>
       <h1 className="heading-wrapper">
         We are <span className="intro-span">JAYCEES KHNISS </span>
         young <span className="intro-span">active </span> citizens
