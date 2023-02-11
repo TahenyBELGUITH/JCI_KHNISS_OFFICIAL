@@ -44,16 +44,10 @@ const Office = () => {
         {office.map((office, index) => {
           return (
             <li key={index}>
-              <a href="" className="card">
-                <img src={office.src} className="card__image" alt="" />
+              <a className="card">
+                <img src={office.src} className="card__image" alt="office pic" />
                 <div className="card__overlay">
                   <div className="card__header">
-                    <svg
-                      className="card__arc"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path />
-                    </svg>
                     <img
                       className="card__thumb"
                       src={office.src}
