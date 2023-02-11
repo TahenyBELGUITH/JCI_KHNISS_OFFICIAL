@@ -1026,6 +1026,7 @@ export const Senators = [
     linkIcon: <FiLinkedin />,
     instHref: "https://www.instagram.com/karimsakly/",
     instIcon: <FiInstagram />,
+    year: "28 december 2021",
   },
   {
     id: 1,

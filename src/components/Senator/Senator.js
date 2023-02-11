@@ -29,6 +29,7 @@ const Senator = () => {
                       {senator.name}
                     </a>
                   </h3>
+                  <p>{senator.year}</p>
                   <div className="card__description__list">
                     <ul>
                       <a href={senator.faceHref} key={index} target="_blank">
