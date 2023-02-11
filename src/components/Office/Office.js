@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Office.css";
 import { officeTable, officeYearTable } from "../../Data/Data";
-import { type } from "@testing-library/user-event/dist/type";
-import Social from "../Social/Social";
 const Office = () => {
   // Selected Year filter
   const [item, setItem] = useState({ mondat: 2023 });

@@ -11,7 +11,7 @@ const Footer = () => {
             Taheny Belguith
           </a>
         </span>{" "}
-        . All rights reserved.
+        . All rights reserved!
       </h4>
       <div className="nav-social about__me">
         <ul className=" d-flex nav-social-list">

@@ -12,7 +12,7 @@ import {
   BsCalendarEvent,
   BsFillTelephoneForwardFill,
 } from "react-icons/bs";
-import { FaUsers, FaQuestion, FaHistory } from "react-icons/fa";
+import { FaUsers, FaQuestion, FaHistory, FaReact } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 import { AiOutlineUserAdd } from "react-icons/ai";
 import { TfiTwitterAlt } from "react-icons/tfi";
@@ -87,6 +87,7 @@ import Siwar from "../Images/Office/siwar.jpg";
 import Sirine from "../Images/Office/sirine.jpg";
 import Ahlem from "../Images/Office/ahlem.jpg";
 import Karim from "../Images/Office/karim.jpg";
+import Haithem from "../Images/Office/haithem.jpg";
 import Achraf from "../Images/Office/achraf.jpg";
 
 // navigation
@@ -854,15 +855,15 @@ export const officeTable = [
   },
   {
     id: 29,
-    name: "S.Karim SAKLY",
-    src: Karim,
+    name: "Haithem DEBBABI",
+    src: Haithem,
     post: "P.President",
-    faceHref: "https://www.facebook.com/karim.jci",
+    faceHref: "https://www.facebook.com/debhaithem",
     faceIcon: <FiFacebook />,
-    linkHref: "https://www.linkedin.com/in/karim-sakly-503a33245/",
-    linkIcon: <FiLinkedin />,
-    instHref: "https://www.instagram.com/karimsakly/",
+    instHref: "https://www.instagram.com/",
     instIcon: <FiInstagram />,
+    linkHref: "https://www.linkedin.com/in/debbabi-haithem-539a44214/",
+    linkIcon: <FiLinkedin />,
     year: 2019,
   },
   {
@@ -989,5 +990,10 @@ export const socialJCI = [
     id: 4,
     icon: <FiLinkedin />,
     href: "https://www.linkedin.com/in/belguith-taheny/",
+  },
+  {
+    id: 5,
+    icon: <FaReact />,
+    href: "https://taheny-belguith.vercel.app/",
   },
 ];
