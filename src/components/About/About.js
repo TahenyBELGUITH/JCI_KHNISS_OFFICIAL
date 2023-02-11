@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import { AboutHistory } from "../../Data/Data";
 
 const About = () => {
   return (
@@ -7,58 +8,19 @@ const About = () => {
       <h1 class="heading" align="center">
         How we start?
       </h1>
-      <div class="about-card">
-        <div class="card-body">
-          <h1 class="card-title">2000-2002</h1>
-          <p class="card-detail">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
-            sequi recusandae laborum ipsam dignissimos nostrum vitae provident
-            officia, consectetur ab accusantium corrupti exercitationem
-            temporibus repellat non magni cupiditate ea reprehenderit.
-          </p>
-        </div>
-      </div>
-
-      <div class="about-card">
-        <div class="card-body">
-          <h1 class="card-title">2000-2002</h1>
-          <p class="card-detail">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
-            sequi recusandae laborum ipsam dignissimos nostrum vitae provident
-            officia, consectetur 
-          </p>
-        </div>
-      </div>
-      <div class="about-card">
-        <div class="card-body">
-          <h1 class="card-title">2000-2002</h1>
-          <p class="card-detail">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
-            sequi recusandae laborum ipsam dignissimos nostrum vitae provident
-            officia, consectetur ab 
-          </p>
-        </div>
-      </div>
-      <div class="about-card">
-        <div class="card-body">
-          <h1 class="card-title">2000-2002</h1>
-          <p class="card-detail">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
-            sequi recusandae laborum ipsam dignissimos nostrum vitae provident
-            officia, consectetur ab 
-          </p>
-        </div>
-      </div>
-      <div class="about-card">
-        <div class="card-body">
-          <h1 class="card-title">2000-2002</h1>
-          <p class="card-detail">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
-            sequi recusandae laborum ipsam dignissimos nostrum vitae provident
-            officia, consectetur 
-          </p>
-        </div>
-      </div>
+      {AboutHistory.map((about, index) => {
+        return (
+          <div class="about-card" key={index}>
+            <div class="card-body">
+              <h1 class="card-title">{about.year}</h1>
+              <h3 class="card-detail">{about.description}</h3>
+              <a href={about.href} target="_blank">
+                <button >Read more</button>
+              </a>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 };

@@ -1,9 +1,6 @@
 /* timeline */
 
 .timeline{
-    /* display: block;
-    width: 80%; */
-    /* margin: 150px auto; */
     padding: 10rem;
     background-color: var(--blue);
 }
@@ -22,6 +19,7 @@
 
 .about-card{
     width: 45%;
+    height: 300px;
     padding: 30px;
     border-radius: 10px;
     color: #fff;
@@ -81,11 +79,23 @@
     background: #3dca5c;
 }
 .about-card:nth-child(5), .card:nth-child(5):before{
-    background: #565252;
+    background: #8b6fd8;
 }
 .about-card:nth-child(6), .card:nth-child(6):before{
     background: #4fa0ff;
 }
+.about-card:nth-child(7), .card:nth-child(7):before{
+    background: var(--green);
+}
+.about-card:nth-child(8), .card:nth-child(8):before{
+    background: var(--pink);
+}
+
+.about-card:nth-child(9), .card:nth-child(9):before{
+    background: var(--top-purple);
+}
+
+
 
 .about-card:nth-child(even) .card-body:before{
     content: '';
@@ -102,8 +112,28 @@
     font-size: 30px;
     font-weight: 300;
     margin-bottom: 20px;
+    color: var(--blue);
 }
 
+#start a button {
+  padding: 12px;
+  margin-top: 1.5rem;
+  border: none;
+  outline: none;
+  width: 40%;
+  color: var(--blue);
+  background: var(--white);
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 15px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;  transition: 0.5s;
+}
+
+#start a button:hover {
+  box-shadow: none;
+  color: var(--orange);
+}
 
 @media screen and (max-width: 480px) {
  #start {
@@ -120,7 +150,13 @@
  .about-card:nth-child(3),
  .about-card:nth-child(4)
  ,.about-card:nth-child(5),
- .about-card:nth-child(6){
+ .about-card:nth-child(6) ,
+  .about-card:nth-child(7),
+ .about-card:nth-child(8),
+  .about-card:nth-child(9)
+{
   width: 100%;
+  margin-bottom: 8rem;
+  height: 350px;
  }
 }

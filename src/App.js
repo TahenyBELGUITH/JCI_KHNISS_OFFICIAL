@@ -11,6 +11,7 @@ import Footer from "./components/Footer/Footer";
 import BackToTop from "./components/backToTop/BackToTop";
 import About from "./components/About/About";
 import MobileNav from "./components/MobileNav/MobileNav";
+import Senator from "./components/Senator/Senator";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Intro />
       <Creed />
       <About />
+      <Senator />
       <Office />
       <Event />
       <Faq />
