@@ -1030,7 +1030,7 @@ export const Senators = [
   },
   {
     id: 1,
-    name: "Senator name here",
+    name: "Senator name goes here",
     src: User,
     post: "Senator",
     href: "",
@@ -1040,10 +1040,11 @@ export const Senators = [
     linkIcon: <FiLinkedin />,
     instHref: "https://www.instagram.com/",
     instIcon: <FiInstagram />,
+    year: "Date goes here",
   },
   {
     id: 2,
-    name: "Senator name here",
+    name: "Senator name goes here",
     src: User,
     post: "Senator",
     href: "",
@@ -1053,10 +1054,11 @@ export const Senators = [
     linkIcon: <FiLinkedin />,
     instHref: "https://www.instagram.com/",
     instIcon: <FiInstagram />,
+    year: "Date goes here",
   },
   {
     id: 3,
-    name: "Senator name here",
+    name: "Senator name goes here",
     src: User,
     post: "Senator",
     href: "",
@@ -1066,10 +1068,11 @@ export const Senators = [
     linkIcon: <FiLinkedin />,
     instHref: "https://www.instagram.com/",
     instIcon: <FiInstagram />,
+    year: "Date goes here",
   },
   {
     id: 4,
-    name: "Senator name here",
+    name: "Senator name goes here",
     src: User,
     post: "Senator",
     href: "",
@@ -1079,10 +1082,11 @@ export const Senators = [
     linkIcon: <FiLinkedin />,
     instHref: "https://www.instagram.com/",
     instIcon: <FiInstagram />,
+    year: "Date goes here",
   },
   {
     id: 5,
-    name: "Senator name here",
+    name: "Senator name goes here",
     src: User,
     post: "Senator",
     href: "",
@@ -1092,6 +1096,7 @@ export const Senators = [
     linkIcon: <FiLinkedin />,
     instHref: "https://www.instagram.com/",
     instIcon: <FiInstagram />,
+    year: "Date goes here",
   },
 ];
 
