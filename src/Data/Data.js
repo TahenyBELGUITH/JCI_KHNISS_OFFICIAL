@@ -1150,7 +1150,7 @@ export const AboutHistory = [
     id: 6,
     year: "25 SEPTEMBER 2022",
     description:
-      "Organizing the first regional session for heads of local chambers",
+      "Organizing the first regional session for heads of local chambers - ZONE C",
     href: "https://www.facebook.com/permalink.php?story_fbid=pfbid035RJakHwrCYczwgi184iqcGDjr9479i7KRcVNDt2wkj5GgNyEQFtQAA1BN5FovmT1l&id=318957112019536",
   },
 ];
