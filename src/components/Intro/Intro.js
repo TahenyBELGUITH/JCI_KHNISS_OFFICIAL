@@ -1,7 +1,7 @@
 import "./Intro.css";
 import Team from "../../Images/Intro/team.svg";
-import zoneC from "../../Images/jci/zonec.png"
-import Khniss from "../../Images/jci/khniss.png"
+import zoneC from "../../Images/jci/zonec.png";
+import Khniss from "../../Images/jci/khniss.png";
 
 //
 import React from "react";
@@ -11,6 +11,7 @@ const Intro = () => {
     <div className="intro-wrapper" id="home">
       <div className="logo-jci">
         <img src={Khniss} alt="jci-khniss" />
+
         <img src={zoneC} alt="jci-tunisie" />
       </div>
       <h1 className="heading-wrapper">

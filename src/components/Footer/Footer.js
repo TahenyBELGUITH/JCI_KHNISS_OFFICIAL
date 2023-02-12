@@ -1,17 +1,17 @@
 import React from "react";
-import {socialJCI} from "../../Data/Data";
+import { socialJCI } from "../../Data/Data";
 import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
       <h4 className="p-6">
-        &copy; 2023{" "}
+        Created with ❤️ by {"  "}
         <span className="footer-span">
-          <a href="https://github.com/TahenyBELGUITH" target="_blank">
+          <a href="https://taheny-belguith.vercel.app/" target="_blank">
             Taheny Belguith
           </a>
         </span>{" "}
-        . All rights reserved!
+        &copy;
       </h4>
       <div className="nav-social about__me">
         <ul className=" d-flex nav-social-list">

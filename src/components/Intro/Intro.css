@@ -46,9 +46,6 @@ left: 0;
   color: var(--white);
 }
 
-.left p:hover {
-color: var(--orange);
-}
 
 .cta1{
   background-color: transparent;
@@ -105,8 +102,8 @@ color: var(--orange);
 }
 
 .logo-jci img {
- width: 9%;
- height: 9%;
+ width: 10%;
+ height: 10%;
 }
 
 @media screen and (max-width: 480px) {
