@@ -1,6 +1,5 @@
 import React from "react";
 import "./Event.css";
-import EventWave from "../../Images/Decor/eventWave.svg";
 
 import { introTable } from "../../Data/Data";
 
@@ -20,7 +19,6 @@ import { Autoplay, EffectCoverflow, Pagination } from "swiper";
 const Event = () => {
   return (
     <div id="event">
-      {/* <img src={EventWave} /> */}
       <h1 className="intro-span event-heading">Discover Our Activities</h1>
 
       <>
@@ -47,7 +45,7 @@ const Event = () => {
           {introTable.map((introImage, index) => {
             return (
               <SwiperSlide key={index}>
-                <img src={introImage.src} />
+                <img src={introImage.src} alt="event pic" />
               </SwiperSlide>
             );
           })}
@@ -57,7 +55,7 @@ const Event = () => {
         href="https://www.facebook.com/profile.php?id=100069415920893&sk=photos"
         target="_blank"
       >
-        <button type="button">Discover more events!</button>
+        <button type="button">Explore more!</button>
       </a>
     </div>
   );

@@ -1105,35 +1105,36 @@ export const AboutHistory = [
   {
     id: 0,
     year: "2007 - 2012",
-    description: "Founding of JCI KHNISS sponsored by JCI KSAR HELLAL",
+    description:
+      "The establishment of JCI KHNISS which was supported by JCI KSAR HELLAL.",
     href: "https://www.facebook.com/karim.jci/posts/pfbid0XT8rPrbVcZDCwRtb9E9FCnrBDdwbwgVGW5tkqz2Puw4hRuJNShdfZ2u7wgghhp1gl",
   },
   {
     id: 1,
     year: "09 NOVEMBER 2018",
     description:
-      "Reactivation of JCI KHNISS Under the supervision of the National Vice President, Iskandar BERRISH",
+      "The revival of JCI KHNISS which took place under the guidance of National Vice President, Iskandar BERRISH.",
     href: "https://www.facebook.com/media/set/?set=a.342756799639567&type=3",
   },
   {
     id: 2,
     year: "15 JULY 2020",
     description:
-      "launching a web development club Under the supervision of the VPFD 2020, Naoures KRAIEM",
+      "The establishment of a web development club took place under the supervision of the VPFD 2020, Naoures KRAIEM.",
     href: "https://www.facebook.com/permalink.php?story_fbid=pfbid02nkMiq7AQFkNudTEqXqvrznkKcnnocVAht5ePKxa5dXcCyPMKPv8NngA1yZGHDtNxl&id=318957112019536",
   },
   {
     id: 3,
     year: "21 SEPTEMBER 2020",
     description:
-      "Honoring of the chamber’s member, Rim Haddad, for the Eastern Middle Region, in the art of rhetoric debate 2020",
+      "The recognition of Rim Haddad, a member of the chamber, for her expertise in the art of rhetoric debate in 2020.",
     href: "https://www.facebook.com/permalink.php?story_fbid=pfbid0EpGHt3sZdSQUTJu2j5wu429YZhkDGTJMPXzMqbmtUQVruJN8FDAPXmRP26hxSMC4l&id=318957112019536",
   },
   {
     id: 4,
     year: "22 November 2020",
     description:
-      "Officially elected P.President Ahlem HADDAD for the post of National Vice-President of JCI Tunisia - Zone C",
+      "The official selection of P.President Ahlem HADDAD for the position of National Vice-President of JCI Tunisia, in Zone C.",
     href: "https://www.facebook.com/photo.php?fbid=694617841450534&set=pb.100027069727980.-2207520000.&type=3",
   },
 
@@ -1141,21 +1142,22 @@ export const AboutHistory = [
     id: 5,
     year: "31 OCTOBER 2021",
     description:
-      "launching of club ROBOTIC JUNIOR  Under the supervision of the Jural advisor 2021, Sirine MABROUK",
+      "The initiation of the club ROBOTIC JUNIOR took place under the guidance of the Jural advisor 2021, Sirine MABROUK.",
     href: "https://www.facebook.com/permalink.php?story_fbid=pfbid036AsvVA5vcuA4w56sAdh3AM3ZJcQdGiDGWzkNCzGBjvm8Q2qxrZjyfX6cYBdcx5Gdl&id=318957112019536",
   },
 
   {
     id: 6,
     year: "28 DECEMBER 2021",
-    description: "Inauguration Mr.Karim SAKLY of the rank of Senator",
+    description:
+      "The official elevation of Mr. Karim SAKLY to the position of Senator during the 52nd National Conference of the JCI Tunisia .",
     href: "https://www.facebook.com/karim.jci/posts/pfbid0gptjwhnG8BBqgDcYBmUgWeFWiP7FqUL58CQHP8SjsPZwH4BGypup1kAZwRWBHa7tl",
   },
   {
     id: 6,
     year: "25 SEPTEMBER 2022",
     description:
-      "Organizing the first regional session for heads of local chambers - ZONE C",
+      "JCI KHNISS was responsible for arranging the first regional meeting for leaders of local chambers, in ZONE C",
     href: "https://www.facebook.com/permalink.php?story_fbid=pfbid035RJakHwrCYczwgi184iqcGDjr9479i7KRcVNDt2wkj5GgNyEQFtQAA1BN5FovmT1l&id=318957112019536",
   },
 ];

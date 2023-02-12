@@ -22,6 +22,7 @@ font-size: 4em;
 
 #event button {
  background-color: transparent;
+ outline: none;
  border: 2px solid var(--min-blue);
  border-radius: 15px;
  margin: auto;
