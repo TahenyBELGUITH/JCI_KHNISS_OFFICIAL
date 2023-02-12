@@ -18,6 +18,7 @@ import {
   FaHistory,
   FaReact,
   FaUserTie,
+  FaMedium,
 } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 import { AiOutlineUserAdd } from "react-icons/ai";
@@ -1009,6 +1010,11 @@ export const socialJCI = [
     id: 5,
     icon: <FaReact />,
     href: "https://taheny-belguith.vercel.app/",
+  },
+  {
+    id: 6,
+    icon: <FaMedium />,
+    href: "https://medium.com/me/stories/public",
   },
 ];
 
