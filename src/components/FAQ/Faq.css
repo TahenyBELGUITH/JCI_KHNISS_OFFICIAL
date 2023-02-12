@@ -40,11 +40,11 @@ body .container .card:nth-child(4) .box .content a {
 }
 
 body .container .card:nth-child(5) .box .content a {
-  background: var(--black);
+  background: var(--top-purple);
 }
 
 body .container .card:nth-child(6) .box .content a {
-  background: var(--pink);
+  background: #ff7f50;
 }
 
 body .container .card .box {
@@ -109,7 +109,6 @@ body .container .card .box .content a {
   position: relative;
   display: inline-block;
   padding: 8px 20px;
-  /* background: black; */
   border-radius: 5px;
   text-decoration: none;
   color: white;
@@ -119,7 +118,10 @@ body .container .card .box .content a {
 }
 body .container .card .box .content a:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
-  color: #000;
+  color: var(--orange);
+  background-color: transparent;
+  border: 2px solid var(--orange);
+  outline: none;
 }
 
 @media screen and (max-width: 480px) {

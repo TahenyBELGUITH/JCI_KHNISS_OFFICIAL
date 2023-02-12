@@ -37,11 +37,11 @@
 
 }
 
-.nav-list li:hover{
+.nav-list li:hover,
+.nav-list li:visited{
  border-top: 2px solid var(--min-blue);
  color: var(--min-blue);
 }
-
 
 .nav-social ul {
  gap: 1rem;

@@ -25,9 +25,7 @@ const Senator = () => {
               <div class="face face2">
                 <div class="content">
                   <h3>
-                    <a href={senator.href} target="_blank">
                       {senator.name}
-                    </a>
                   </h3>
                   <p>{senator.year}</p>
                   <div className="card__description__list">

@@ -9,7 +9,6 @@
 
 
 #office {
-  padding: 2rem;
   margin: 6rem auto;
 }
 
@@ -193,6 +192,7 @@ body {
     width: 100%;
   }
   #office {
-    margin: 6rem 0 0 0;
+    margin: auto;
+    padding-top: 2rem;
 }
 }
