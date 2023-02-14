@@ -1,3 +1,11 @@
+.footer-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
 .footer {
  padding: 1em;
  position: right;
@@ -13,6 +21,8 @@
   text-decoration: underline;
   font-size: 1em;
 }
+
+
 
 
 @media screen and (max-width: 480px) {

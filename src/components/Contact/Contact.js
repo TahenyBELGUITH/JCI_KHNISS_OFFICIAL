@@ -22,7 +22,7 @@ const Contact = () => {
         form.current,
         "f2F8PmDNBZRa2pl56"
       )
-      .then(
+      .then( 
         (result) => {
           console.log(result.text);
           setDone(true);

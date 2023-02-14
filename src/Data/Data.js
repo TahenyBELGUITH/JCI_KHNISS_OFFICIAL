@@ -5,6 +5,7 @@ import {
   FiMail,
   FiGithub,
   FiLinkedin,
+  FiYoutube,
 } from "react-icons/fi";
 import { HiHome } from "react-icons/hi";
 import {
@@ -444,14 +445,14 @@ export const cardTable = [
     question: "What is JCI's mission?",
     answer:
       "To provide development opportunities that empower young people to create positive change",
-    href: "https://jci.cc/about",
+    href: "https://www.facebook.com/photo?fbid=499227765734417&set=a.486074433716417",
   },
   {
     id: 1,
     number: "02",
     question: "What is JCI's vision?",
     answer: "To be the leading global network of young active citizens",
-    href: "https://jci.cc/about",
+    href: "https://www.facebook.com/photo?fbid=499242709066256&set=a.486074433716417",
   },
   {
     id: 2,
@@ -459,14 +460,14 @@ export const cardTable = [
     question: "What is JCI membership?",
     answer:
       "JCI is a nonprofit organization of young active citizens age 18 to 40 who are engaged and committed to creating impact in their communities",
-    href: "https://jci.cc/about",
+    href: "https://www.facebook.com/photo?fbid=499244745732719&set=a.486074433716417",
   },
   {
     id: 3,
     number: "04",
     question: "What are the benefits of joining JCI?",
     answer: "You'll broaden your network of contacts ...",
-    href: "https://jci.cc/about",
+    href: "https://www.facebook.com/photo?fbid=499248449065682&set=a.486074433716417",
   },
   {
     id: 4,
@@ -474,14 +475,14 @@ export const cardTable = [
     question: "Who can join JCI in Khniss ?",
     answer:
       "The membership is offered to everybody regardless of color, cast and creed between the age of 18 -40 years.",
-    href: "https://jci.cc/about",
+    href: "https://www.facebook.com/photo?fbid=499255802398280&set=a.486074433716417",
   },
   {
     id: 5,
     number: "06",
     question: "How much is JCI membership?",
     answer: "Our joining and annual fee is 50 TDN/Annual.",
-    href: "https://jci.cc/about",
+    href: "https://www.facebook.com/photo/?fbid=499273542396506&set=a.486074433716417",
   },
 ];
 
@@ -1123,5 +1124,29 @@ export const AboutHistory = [
     description:
       "JCI KHNISS was responsible for arranging the first regional meeting for leaders of local chambers, in ZONE C",
     href: "https://www.facebook.com/permalink.php?story_fbid=pfbid035RJakHwrCYczwgi184iqcGDjr9479i7KRcVNDt2wkj5GgNyEQFtQAA1BN5FovmT1l&id=318957112019536",
+  },
+];
+
+// jci links
+export const JCILinks = [
+  {
+    id: 0,
+    icon: <FiFacebook />,
+    href: "https://www.facebook.com/profile.php?id=100069415920893",
+  },
+  {
+    id: 1,
+    icon: <FiInstagram />,
+    href: "https://www.instagram.com/jcikhniss/",
+  },
+  {
+    id: 2,
+    icon: <FiLinkedin />,
+    href: "https://www.linkedin.com/in/jci-khniss-9a7425266/",
+  },
+  {
+    id: 3,
+    icon: <FiYoutube />,
+    href: "https://www.youtube.com/@jcikhniss2438",
   },
 ];

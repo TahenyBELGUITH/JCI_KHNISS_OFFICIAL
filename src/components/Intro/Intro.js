@@ -1,10 +1,12 @@
+import React from "react";
+
 import "./Intro.css";
 import Team from "../../Images/Intro/team.svg";
 import zoneC from "../../Images/jci/zonec.png";
 import Khniss from "../../Images/jci/khniss.png";
+import { JCILinks } from "../../Data/Data";
 
 //
-import React from "react";
 
 const Intro = () => {
   return (
@@ -31,6 +33,21 @@ const Intro = () => {
             <br></br> <span className="intro-span">Join us </span> on this
             journey
           </p>
+
+          <ul className="social-list-jci">
+            {JCILinks.map((link, index) => {
+              return (
+                <>
+                  <li key={index}>
+                    <a href={link.href} target="_blank">
+                      {link.icon}
+                    </a>
+                  </li>
+                </>
+              );
+            })}
+          </ul>
+
           <div className="i-buttons">
             <a href="#add">
               <button type="button" className="cta1">

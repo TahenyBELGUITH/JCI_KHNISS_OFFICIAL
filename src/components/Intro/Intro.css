@@ -4,6 +4,26 @@
   justify-content: space-between;
 }
 
+.social-list-jci {
+  gap: 1rem;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-list-jci li a {
+  color: var(--min-blue);
+  text-decoration: none;
+  display: inline;
+  font-size: 1.5em;
+}
+
+.social-list-jci li a:hover{
+  color: var(--orange);
+  font-size: 2rem;
+}
+
 .intro-wrapper {
   background-color: var(--blue);
   height: 82vh;

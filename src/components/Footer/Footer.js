@@ -1,6 +1,8 @@
 import React from "react";
 import { socialJCI } from "../../Data/Data";
 import "./Footer.css";
+import { JCILinks } from "../../Data/Data";
+
 const Footer = () => {
   return (
     <div className="footer">
