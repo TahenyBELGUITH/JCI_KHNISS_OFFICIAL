@@ -17,12 +17,12 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_e1vbcnp",
-        "template_z6octra",
+        "service_pqqzuqk",
+        "template_iqfym7d",
         form.current,
-        "f2F8PmDNBZRa2pl56"
+        "R6xYrOVUlM9LCXpVQ"
       )
-      .then( 
+      .then(
         (result) => {
           console.log(result.text);
           setDone(true);
