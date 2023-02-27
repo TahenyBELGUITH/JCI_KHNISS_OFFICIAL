@@ -61,10 +61,12 @@ font-family: 'Kings', cursive;
 
 .credo-wave {
    margin-top: -0.3rem;
+  width: 100%;
 }
 
 .credo-wave-btm {
  margin-bottom: -7rem;
+     width: 100%;
 }
 
 .creed-span{

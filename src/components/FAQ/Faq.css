@@ -1,5 +1,6 @@
 .faq-image {
   margin-bottom: -8.5em;
+  width: 100%;
 }
 
 body .container {
@@ -122,6 +123,10 @@ body .container .card .box .content a:hover {
   background-color: transparent;
   border: 2px solid var(--orange);
   outline: none;
+}
+
+.F-shape{
+  width: 100%;
 }
 
 @media screen and (max-width: 480px) {
