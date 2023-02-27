@@ -1,0 +1,161 @@
+/* timeline */
+
+.timeline{
+    padding: 10rem;
+    background-color: var(--blue);
+}
+
+.timeline .heading{
+    margin-bottom: 150px;
+  font-size: 4rem;
+    color: var(--white);
+
+}
+
+.timeline .heading:hover{
+  color: var(--orange);
+
+}
+
+.about-card{
+    width: 45%;
+    height: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    margin: -80px 0;
+    position: relative;
+    background: #f00;
+}
+
+.about-card:nth-child(even){
+    margin-left: auto;
+}
+
+.about-card:nth-child(even):after{
+    content: '';
+    position: absolute;
+    left: -8.5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 7%;
+    height: 2px;
+    background: var(--blue);
+    z-index: -1;
+}
+
+.about-card:nth-child(odd):before{
+    content: '';
+    position: absolute;
+    right: -13%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 5px solid var(--white);
+    border-radius: 50%;
+}
+
+.about-card:nth-child(odd):after{
+    content: '';
+    position: absolute;
+    right: -8.5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 7%;
+    height: 2px;
+    background: var(--blue);
+    z-index: -1;
+}
+
+.about-card:nth-child(2), .card:nth-child(2):before{
+    background: #ff4f4f;
+}
+.about-card:nth-child(3), .card:nth-child(3):before{
+    background: #ffb84f;
+}
+.about-card:nth-child(4), .card:nth-child(4):before{
+    background: #3dca5c;
+}
+.about-card:nth-child(5), .card:nth-child(5):before{
+    background: #8b6fd8;
+}
+.about-card:nth-child(6), .card:nth-child(6):before{
+    background: #4fa0ff;
+}
+.about-card:nth-child(7), .card:nth-child(7):before{
+    background: var(--green);
+}
+.about-card:nth-child(8), .card:nth-child(8):before{
+    background: var(--pink);
+}
+
+.about-card:nth-child(9), .card:nth-child(9):before{
+    background: var(--top-purple);
+}
+
+
+
+.about-card:nth-child(even) .card-body:before{
+    content: '';
+    position: absolute;
+    left: -12%;
+    top: 0;
+    width: 0px;
+    height: 100%;
+    border: 1px dashed #fff;
+    /* z-index: -1; */
+}
+
+.card-title{
+    font-size: 30px;
+    font-weight: 300;
+    color: var(--blue);
+}
+
+#start a button {
+  padding: 12px;
+  margin-top: 1.5rem;
+  border: none;
+  outline: none;
+  width: 40%;
+  color: var(--blue);
+  background: var(--white);
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 15px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;  transition: 0.5s;
+}
+
+#start a button:hover {
+  box-shadow: none;
+  color: var(--orange);
+}
+
+@media screen and (max-width: 480px) {
+ #start {
+  padding: 16px;
+ }
+
+ .timeline .heading {
+  font-size: 40px;
+  padding: 2rem;
+  margin-bottom: 60px;
+ }
+ .about-card:nth-child(1),
+ .about-card:nth-child(2),
+ .about-card:nth-child(3),
+ .about-card:nth-child(4)
+ ,.about-card:nth-child(5),
+ .about-card:nth-child(6) ,
+  .about-card:nth-child(7),
+ .about-card:nth-child(8),
+  .about-card:nth-child(9)
+{
+  width: 100%;
+  margin-bottom: 8rem;
+  height: 350px;
+ }
+}

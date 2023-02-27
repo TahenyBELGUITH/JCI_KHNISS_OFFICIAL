@@ -1,0 +1,47 @@
+#event{
+ background-color: var(--blue);
+ height: 120vh;
+ margin-bottom: -2rem;
+ padding: 3rem 6rem;
+ text-align: center;
+}
+
+.event-heading {
+font-size: 4em;
+}
+
+.event-heading:hover {
+  color: var(--orange);
+}
+
+
+#event button:hover{
+ color: var(--orange);
+ border:  2px solid var(--orange);
+}
+
+#event button {
+ background-color: transparent;
+ outline: none;
+ border: 2px solid var(--min-blue);
+ border-radius: 15px;
+ margin: auto;
+ padding: 13px;
+ color: var(--white);
+font-size: 2rem;
+margin-top: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+   .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    display: none;
+  }
+
+  #event {
+    padding: 3rem 0 0 0;
+  }
+
+  .event-heading {
+    font-size: 30px;
+  }
+}

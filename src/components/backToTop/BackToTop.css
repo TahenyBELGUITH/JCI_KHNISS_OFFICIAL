@@ -1,0 +1,18 @@
+.backToTopClass{
+ background-color: var(--orange);
+ width: 4rem;
+ height: 4rem;
+ color: white;
+ border: none;
+ border-radius: 100%;
+ position: fixed;
+ right: 24px;
+ bottom: 24px;
+ cursor: pointer;
+ z-index: 99999;
+}
+
+.backToTopClass svg{
+ font-size: 2em;
+ margin: auto;
+}

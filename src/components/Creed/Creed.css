@@ -1,0 +1,103 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kings&display=swap');
+
+
+.creed-wrapper {
+ background-color: var(--min-blue);
+  z-index: -6;
+}
+
+.creedo-flex {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  padding: 2rem;
+}
+
+.creedo-left {
+  width: 50%;
+}
+
+.creedo-right {
+  width: 40%;
+}
+.creed-wrapper h2 {
+ color: var(--white);
+ text-align: center;
+ font-size: 90px;
+}
+
+.intro-headings h1:hover,
+.intro-headings h2:hover {
+ color: var(--orange);
+}
+
+
+.creed-wrapper h1 {
+ color: var(--blue);
+ text-align: center;
+ font-size: 5em;
+font-family: 'Kings', cursive;
+ margin: -6rem -18rem 0 0;
+}
+
+
+
+
+.charte {
+ font-family: 'Cairo', sans-serif;
+ font-size: 20px;
+ line-height: 2.4em;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ padding: 0 11px;
+}
+
+.charte:hover {
+ color: var(--white);
+}
+
+.credo-wave {
+   margin-top: -0.3rem;
+  width: 100%;
+}
+
+.credo-wave-btm {
+ margin-bottom: -7rem;
+     width: 100%;
+}
+
+.creed-span{
+ color: var(--top-blue);
+}
+
+@media screen and (max-width: 480px) {
+  .credo-wave{
+    display: none;
+  }
+
+  .creed-wrapper h2{
+    font-size: 60px;
+  }
+
+  .creed-wrapper h1{
+    font-size: 3em;
+    margin: -4rem -12rem 0 0;
+  }
+
+  .creedo-left,
+  .credo-wave-btm  {
+    display: none;
+  }
+
+  .creedo-right {
+    width: 100%;
+  }
+
+  .creedo-flex{
+  width: 100%;
+  padding:  2rem 0;
+  }
+}
